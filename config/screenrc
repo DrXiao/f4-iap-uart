@@ -1,0 +1,5 @@
+screen arm-none-eabi-gdb build/iap-uart.elf -ex "target extended-remote :3333"
+split -v
+focus
+screen openocd -f interface/stlink.cfg -f target/stm32f4x.cfg
+focus

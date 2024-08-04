@@ -1,0 +1,5 @@
+build/
+Drivers/
+FATFS/
+Middlewares/
+stman.config
